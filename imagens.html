@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grids.css">
+</head>
+
+<style>
+    .row{
+        margin-bottom: 10px;
+    }
+
+    .border{
+        border: 1px solid black;
+    }
+
+    .coluna-imagem2{
+        height: 100px;
+    }
+
+    .coluna-imagem3{
+        padding: 20px;
+    }
+
+    .borda-imagem{
+         border: 1px solid green;
+         border-radius: 5px;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12">
+                <h1>Imagens</h1>
+            </div>
+        </div>
+
+        <div class="row gap-1">
+            
+            <div class="col-8 border ">
+                <img src="lain.jpg" class="img-responsive" alt="">
+            </div>
+            
+            <div class="col-4 border">
+                <h1>Descrição imagem</h1>
+            </div>
+        </div>
+
+        <div class="row gap-1">
+            <div class="col-4 coluna-imagem2 border">
+                <img src="lain.jpg" class="img-fill" alt="">
+            </div>
+                <h1>Ocupa 100% do espaço</h1>
+            <div class="col-8">
+
+            </div>
+        </div>
+
+       <div class="row gap-1">
+            
+            <div class="col-4 border coluna-imagem3">
+                <img src="lain.jpg" class="img-responsive borda-imagem" alt="">
+            </div>
+            
+            <div class="col-4 border">
+                <h1>Descrição imagem</h1>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
